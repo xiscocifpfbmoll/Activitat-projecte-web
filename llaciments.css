@@ -1,5 +1,5 @@
 body{
-    background-color: aliceblue
+    background-color: beige
 }
 
 h1{
@@ -21,4 +21,12 @@ table {
 img {
     width: 12px;
     height: 12px;
+}
+
+.fondo1 {
+    background-color: #adff2f;
+}
+
+body {
+    background-color: beige;
 }
