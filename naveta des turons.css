@@ -1,14 +1,23 @@
 body{
-    background-color: white;
+    background-color: beige;
 }
 
 p{
-   border: 5px solid blue;
+   border: 5px solid black;
    padding: 20px;
-   background-color: aqua;
+   background-color: burlywood;
    font-family: 'Times New Roman', Times, serif;
    font-size: 25px;
 }
 
-
+.fondo2{
+    background-color: burlywood;
+}
  
+ul {
+    border: 5px solid black;
+   padding: 20px;
+   background-color: burlywood;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 25px;
+}
