@@ -1,0 +1,24 @@
+body{
+    background-color: aliceblue
+}
+
+h1{
+    color: green;
+}
+
+table {
+     justify-content: center;
+     align-items: center;
+
+}
+.historia::after {
+  height: 1px;
+  width: 1px;
+  display: inline-block;
+  content: url('pixeles.jpg');
+}
+
+img {
+    width: 12px;
+    height: 12px;
+}
