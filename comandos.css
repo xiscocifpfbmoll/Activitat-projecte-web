@@ -5,3 +5,8 @@ body{
 h1{
     color: green;
 }
+
+table {
+     justify-content: center;
+     align-items: center;
+}
