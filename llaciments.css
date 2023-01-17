@@ -13,8 +13,9 @@ table {
      justify-content: center;
      align-items: center;
      width: 100%;
-     border: 1 px solid green;
-     padding: 5px;
+     border: 1 px solid black;
+     padding: 0px;
+     border-collapse: collapse;
 
 
 }
@@ -60,6 +61,8 @@ th{
  
 }
 
+.color:nth-child(odd) {background: lightgreen;}
+.color:nth-child(even){background: #adff2f ;}
 
 
 

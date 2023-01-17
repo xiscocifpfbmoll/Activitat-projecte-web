@@ -26,3 +26,16 @@ ul {
 a:hover{
     background-color: yellow;
 }
+
+img{
+padding: 10px;
+background-color: black;
+}
+
+h1 {
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
