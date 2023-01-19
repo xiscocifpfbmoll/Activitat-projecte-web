@@ -1,11 +1,21 @@
-body{
-    background-color: aliceblue
-}
 
 h1{
-    color: green;
+    margin: auto;
+    height: max-content;
+    text-align: center;
+    border: 2px solid ;
+    position: relative;
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 17, 255);
+    font-family: 'KingMalik';
+    font-size: 46px;
+    text-shadow: 7px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
+header {
+    background-image: url(gucci.jpg);
+    position: relative;
+}
 table {
      justify-content: center;
      align-items: center;
@@ -22,11 +32,18 @@ img {
     width: 12px;
     height: 12px;
 }
-
-.fondo1 {
-    background-color: #adff2f;
+body {
+    background-color: white
 }
 
-body {
-    background-color: beige;
+@font-face {
+    font-family: KingMali;
+    src: url("HussarBold-7mRE.otf");
+}
+
+.klk {
+    background-color: rgb(255, 255, 151);
+    border-color: solid black;
+    border: 1px solid;
+    width: 550px;
 }
