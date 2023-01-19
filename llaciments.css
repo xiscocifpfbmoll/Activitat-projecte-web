@@ -1,5 +1,6 @@
 
 h1{
+<<<<<<< HEAD
     margin: auto;
     height: max-content;
     text-align: center;
@@ -10,6 +11,12 @@ h1{
     font-family: 'KingMalik';
     font-size: 46px;
     text-shadow: 7px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+=======
+    color: green;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+>>>>>>> dd5e5fc7be10fa0eabc356f004078be5d656720d
 }
 
 header {
@@ -19,6 +26,11 @@ header {
 table {
      justify-content: center;
      align-items: center;
+     width: 100%;
+     border: 1 px solid black;
+     padding: 0px;
+     border-collapse: collapse;
+
 
 }
 .historia::after {
@@ -36,6 +48,7 @@ body {
     background-color: white
 }
 
+<<<<<<< HEAD
 @font-face {
     font-family: KingMali;
     src: url("HussarBold-7mRE.otf");
@@ -47,3 +60,32 @@ body {
     border: 1px solid;
     width: 550px;
 }
+=======
+a:visited {
+    color:purple;
+}
+
+tr{
+    border:5px;
+    padding: 5px;
+    border-top: 10px;
+    border-right: 5px;
+     
+
+}
+
+th, td{
+    border-collapse: collapse;
+}
+
+th{
+    background-color: white;
+ 
+}
+
+.color:nth-child(odd) {background: lightgreen;}
+.color:nth-child(even){background: #adff2f ;}
+
+
+
+>>>>>>> dd5e5fc7be10fa0eabc356f004078be5d656720d
