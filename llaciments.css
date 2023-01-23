@@ -11,7 +11,7 @@ h1{
     font-size: 46px;
     text-shadow: 7px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 
-    color: green;
+    color: beige;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -25,12 +25,13 @@ header {
 table {
      justify-content: center;
      align-items: center;
-     width: 100%;
+     width: auto;
     display: flex;
      padding: 20px;
      border-collapse: collapse;
      height: 250px;
      font-size: 30px;
+     margin: 200px;
      
       
 
@@ -65,7 +66,8 @@ body {
     display: block;
     text-align: center;
     position: relative;
-    margin: auto;
+    margin: 100px auto;
+    font-size: 20px;
 
 }
 
@@ -84,15 +86,20 @@ tr{
 
 th, td{
     border-collapse: collapse;
+    padding: 20px;
 }
 
 th{
     background-color: white;
+    border-bottom: solid 5px black;
  
 }
 
-.color:nth-child(odd) {background: lightgreen;}
-.color:nth-child(even){background: #adff2f ;}
+.color:nth-child(odd) {background: burlywood;}
+.color:nth-child(even){background: lightyellow;}
 
-
+tr:hover td{
+    background-color: rgba(71, 58, 58, 0.534);
+    
+}
 
