@@ -63,3 +63,8 @@ a {
     
 }
  
+ a:first-child{
+    padding: opx;
+     
+    border: 0ch;
+ }
