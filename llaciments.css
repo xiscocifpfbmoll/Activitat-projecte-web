@@ -6,12 +6,11 @@ h1{
     border: 2px solid ;
     position: relative;
     border-color: rgb(0, 0, 0);
-    color: rgb(0, 17, 255);
-    font-family: 'KingMalik';
+    color: rgb(255, 255, 255);
+    font-family: 'KingMali';
     font-size: 46px;
-    text-shadow: 7px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: 3px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 
-    color: beige;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -27,11 +26,10 @@ table {
      align-items: center;
      width: auto;
     display: flex;
-      
      border-collapse: collapse;
      height: 250px;
-     font-size: 30px;
-     margin: 350px;
+     font-size: 17px;
+     margin: 130px;
      
       
 
@@ -91,15 +89,17 @@ th, td{
 
 th{
     background-color: white;
-    border-bottom: solid 5px black;
+    border-bottom: solid 4px black;
  
 }
 
-.color:nth-child(odd) {background: burlywood;}
+.color:nth-child(odd) {background: rgb(255, 1, 1);}
 .color:nth-child(even){background: lightyellow;}
 
 tr:hover td{
     background-color: rgba(71, 58, 58, 0.534);
     
 }
-
+body{
+    background-color: rgb(255, 255, 0);
+}
