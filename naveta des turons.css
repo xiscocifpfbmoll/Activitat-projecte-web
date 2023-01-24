@@ -4,15 +4,19 @@ body{
 
 p{
    border: 5px solid black;
-   padding: 20px;
+   padding: 25px;
    background-color: burlywood;
    font-family: 'Times New Roman', Times, serif;
    font-size: 25px;
+   
 }
 
 
 .fondo2{
     background-color: burlywood;
+    font-size: 25px;
+
+
 }
  
 ul {
@@ -63,6 +67,23 @@ h1 {
     width: 300px;
     
     
+}
+
+.home{
+    display: ;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.flex{
+flex: 1;
+padding: 20px;
+ }
+
+.flex:first-child{
+    flex: 2;
+    padding: 20px;
+     
 }
  
  
