@@ -69,6 +69,20 @@ body {
 
 }
 
+.inicio {
+    text-align: center;
+    width: auto;
+    background-color: rgb(255, 255, 151);
+    border: 5px solid black;
+    margin: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    
+    padding: 10px;
+
+}
+
 a:visited {
     color:black;
 }
@@ -124,20 +138,4 @@ footer {
 
 }
 
-@media screen and(1920x1080){
-    body {display: flex;}
-     
-    footer{
-        width: 100px;
-        height: 100px;
-    }
-
-     
-}
-
-@media screen and (360x800){
-    th, td{
-        padding: 5px;
-    }
-
-}
+ 

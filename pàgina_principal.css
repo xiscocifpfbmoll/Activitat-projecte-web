@@ -1,0 +1,89 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    width:auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    
+}
+
+.esquema{
+    background-color: black;
+    width: auto;
+    height: 60px;
+    
+}
+
+table{
+    color: white;
+    
+}
+
+tr, td{
+    border-collapse: collapse;
+    padding: 20px;
+    text-align: center;
+}
+
+a{
+    color: white;
+}
+
+body{
+    background-image: url('https://www.marhotels.com/blog/wp-content/uploads/2022/01/Pollentia.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+form{
+    background-color: white;
+    width: 500px;
+}
+
+form{
+	width:300px;
+	padding:16px;
+	border-radius:20px;
+	margin:auto;
+	background-color: lightgray;
+}
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+form label{
+	width:120px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+header{
+    background-color: aliceblue;
+    width: auto;
+    height: 100px;
+     
+}
+
+.información{
+    background-color: lightyellow;
+    border: 1px solid black;
+    padding: 50px;
+    width: 500px;
+    border-radius: 20px;
+    font size: 20px;
+
+
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    
+}
