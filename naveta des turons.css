@@ -64,8 +64,8 @@ h1 {
  
 
 .centro{
-    display: inline-block;
-    position: relative;
+    display: flex;
+    flex-direction: row;
     margin: 20px;
     height: 300px;
     width: 300px;
@@ -79,6 +79,8 @@ h1 {
     justify-content: center;  
     width:auto;
 }
+
+ 
 
  
 
