@@ -1,5 +1,12 @@
+
 body{
+    margin:0px;
+    padding: 20px;
     background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 p{
@@ -7,16 +14,13 @@ p{
    padding: 25px;
    background-color: burlywood;
    font-family: 'Times New Roman', Times, serif;
-   font-size: 25px;
-   
+   font-size: 25px;  
 }
 
 
 .fondo2{
     background-color: burlywood;
     font-size: 20px;
-
-
 }
  
 ul {
@@ -50,9 +54,6 @@ background-color: black;
 }
 
 h1 {
-    display:flex;
-    text-align: center;
-    justify-content: center;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: underline;
 }
@@ -70,9 +71,10 @@ h1 {
 }
 
 .home{
-    display: ;
-    flex-wrap: wrap;
+    display: flex;
     flex-direction: column;
+    justify-content: center;  
+    width:auto;
 }
 
  
