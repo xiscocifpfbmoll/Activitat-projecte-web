@@ -30,11 +30,14 @@ table {
      height: 400px;
      font-size: 17px;
      margin: 130px;
-     
+   
       
 
 
 }
+
+  
+
 .historia::after {
   height: 20px;
   width: 20px;
@@ -144,3 +147,21 @@ justify-content: center;
  
 width: 85%;
 }
+
+@media screen and(max-width: 400px){
+    tbody td{
+        display: block;
+        text-align: center;
+    }
+
+    tbody td:before{
+        display: block;
+        text-align: center;
+        content: attr(data-th);
+    }
+
+    thead{
+        display: none;
+    }
+}
+ 
