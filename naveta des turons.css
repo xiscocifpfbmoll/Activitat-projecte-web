@@ -21,8 +21,11 @@ p{
 .fondo2{
     background-color: burlywood;
     font-size: 20px;
+     
 }
  
+  
+
 ul {
     border: 5px solid black;
    padding: 35px;
@@ -38,10 +41,7 @@ ol {
    font-size: 25px;
 }
  
-.botones:hover{
-    background-color: yellow;
-    
-}
+ 
 .botones{
     background-color: bisque;
     padding: 10px;
@@ -49,6 +49,12 @@ ol {
     width: 150px;
     text-align: center;
 }
+.botones:hover{
+    background-color: yellow;
+    
+}
+
+
 
 img{
 padding: 10px;
@@ -65,10 +71,12 @@ h1 {
 
 .centro{
     display: flex;
-    flex-direction: row;
-    margin: 20px;
+    justify-content: center;
+    margin: 40px;
     height: 300px;
-    width: 300px;
+    width: 250px;
+
+    
     
     
 }
@@ -77,13 +85,12 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;  
-    width:auto;
+    
+    width: 85%;
 }
 
  
-
  
-
  
  
  
