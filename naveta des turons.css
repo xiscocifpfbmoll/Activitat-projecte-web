@@ -41,10 +41,7 @@ ol {
    font-size: 25px;
 }
  
-.botones:hover{
-    background-color: yellow;
-    
-}
+ 
 .botones{
     background-color: bisque;
     padding: 10px;
@@ -52,6 +49,12 @@ ol {
     width: 150px;
     text-align: center;
 }
+.botones:hover{
+    background-color: yellow;
+    
+}
+
+
 
 img{
 padding: 10px;
@@ -82,14 +85,12 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;  
-    width:auto;
+    
     width: 85%;
 }
 
  
-
  
-
  
  
  

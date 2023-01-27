@@ -2,15 +2,32 @@
     display: flex;
     flex-direction: column;
     justify-content: center;  
-    width:auto;
+    width: 95%;
+    flex: 1;
 }
 
 h1 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 35px;
+    font-size: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    
+    border-radius: 20px;
+     align-items: center;
     
 }
+
+.centro{
+    
+}
+h2 {
+    color: white;
+}
+
 
 .esquema{
     background-color: black;
@@ -39,12 +56,13 @@ body{
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
 }
-
-form{
-    background-color: white;
-    width: 500px;
-}
+ 
 
 form{
 	width:300px;
@@ -54,6 +72,7 @@ form{
 	background-color: lightgray;
     display: block;
     position: relative;
+    left: 20%;
 }
 
 form input[type="submit"]:hover{
@@ -87,5 +106,6 @@ header{
 footer{
     background-color: black;
     display: flex;
+    justify-content: center;
     
 }
