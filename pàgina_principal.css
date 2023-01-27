@@ -52,6 +52,8 @@ form{
 	border-radius:20px;
 	margin:auto;
 	background-color: lightgray;
+    display: block;
+    position: relative;
 }
 
 form input[type="submit"]:hover{

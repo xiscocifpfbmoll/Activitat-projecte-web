@@ -24,10 +24,10 @@ header {
 table {
      justify-content: center;
      align-items: center;
-     width: auto;
+     width: 85% auto;
     display: flex;
      border-collapse: collapse;
-     height: 250px;
+     height: 400px;
      font-size: 17px;
      margin: 130px;
      
@@ -48,6 +48,8 @@ img {
 }
 body {
     background-color: beige;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -60,10 +62,9 @@ body {
     background-color: rgb(255, 255, 151);
     border-color: solid black;
     border: 1px solid;
-    width: 700px;
-    display: block;
+      display: flex;
     text-align: center;
-    position: relative;
+    justify-content: center;
     margin: 50px auto;
     font-size: 20px;
 
@@ -114,9 +115,7 @@ tr:hover td{
     background-color: rgba(71, 58, 58, 0.534);
     
 }
-body{
-    background-color: rgb(255, 255, 0);
-}
+ 
 
 footer {
     background-color: black;
@@ -138,4 +137,10 @@ footer {
 
 }
 
+.home{
+display: flex;
+flex-direction: column;
+justify-content: center;  
  
+width: 85%;
+}
