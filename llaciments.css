@@ -36,14 +36,8 @@ table {
 
 }
 
-{
-    font-size: 50px;
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    width: 30%;
-    flex-direction: column;
-}
+  
+
 .historia::after {
   height: 20px;
   width: 20px;
