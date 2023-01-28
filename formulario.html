@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="formulario.css">
+</head>
+<body>
+
+<div class="centro">
+<form>
+    <fieldset>
+        Vols unir-te a la nostra página?
+    </fieldset>
+    <label for="nombre">Nom</label>
+   <input type="text" name="Nombre" id="nombre" placeholder="Escriu el teu nom"><p></p>
+   <label for="genero">Gènere:</label><br>
+   <input type="radio" name="genero" value="m">Masculí
+   <input type="radio" name="genero" value="f">Femení<p></p>
+   <label for="cumpleaños">Aniversari:</label>
+   <input type="date" id="cumpleaños" name="cumple" 
+   value="2018-07-22"
+   min="1950-01-01" max="2023-03-03"><p></p>
+   <label for="nombre">Gmail</label>
+   <input type="text" name="Gmail" id="gmail" placeholder="Escriu el teu gmail"><p></p>
+   
+   <label for="description">Hobbies</label><br>
+   <textarea name="description" for="description" placeholder="escriu un hobbie curiós" minlength="5" maxlength="40" required></textarea><p></p>
+
+   <form class="login-form"  action="miurl" method="post">
+
+   <input type="submit" value="Enviar este formulario" />
+
+
+</form>
+</div>
+
+<p></p><a href="pagina principal.html" class="boton"> Torna enrere </a> 
+</body>
