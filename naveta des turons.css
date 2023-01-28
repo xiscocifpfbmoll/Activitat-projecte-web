@@ -1,4 +1,4 @@
-
+/* poner un flex y ajustar la página*/
 body{
     margin:0px;
     padding: 20px;
@@ -49,6 +49,7 @@ ol {
     width: 150px;
     text-align: center;
 }
+/* hacer que cuando se vea cambie*/
 .botones:hover{
     background-color: yellow;
     
@@ -60,7 +61,7 @@ img{
 padding: 10px;
 background-color: black;
 }
-
+/* decorar un h1*/
 h1 {
     font-family: 'Times New Roman', Times, serif;
     text-decoration: underline;

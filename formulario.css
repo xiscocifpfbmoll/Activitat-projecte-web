@@ -10,7 +10,7 @@ form{
      align-self: center;
     border: 5px solid black;
 }
-
+/* Hacer que se vea mas formal*/
 form input[type="submit"]:hover{
 	cursor:pointer;
 }
@@ -28,7 +28,7 @@ form label{
       align-self: center;
       width: auto;
 }
-
+/* Alinear formulario*/
 body{
     display: flex;
     align-items: center;
