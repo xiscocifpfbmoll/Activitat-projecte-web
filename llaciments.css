@@ -1,4 +1,5 @@
 
+/*Poner estilo al h1*/
 h1{
     margin: auto;
     height: max-content;
@@ -21,6 +22,7 @@ header {
     background-image: url(gucci.jpg);
     position: relative;
 }
+/* modificar la tabla para que se adapte al body */
 table {
      justify-content: center;
      align-items: center;
@@ -37,7 +39,7 @@ table {
 }
 
   
-
+/* Añadir foto delate de cada link */
 .historia::after {
   height: 20px;
   width: 20px;
@@ -90,7 +92,7 @@ body {
 a:visited {
     color:black;
 }
-
+/*Modificación de los tr y los th para mejorar la tabla */
 tr{
     border:5px;
     padding: 5px;
@@ -114,6 +116,7 @@ th{
 .color:nth-child(odd) {background: rgb(255, 1, 1);}
 .color:nth-child(even){background: lightyellow;}
 
+/* Poner color encima*/
 tr:hover td{
     background-color: rgba(71, 58, 58, 0.534);
     
@@ -139,7 +142,7 @@ footer {
     color: aqua;
 
 }
-
+/*Hacer que la página sea responsive*/
 .home{
 display: flex;
 flex-direction: column;
